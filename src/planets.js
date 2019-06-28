@@ -1,4 +1,4 @@
-
+import { age } from './main';
 
 export function basic() {
   console.log("hi");
@@ -8,8 +8,9 @@ export function basic() {
 // };
 console.log("him")
 export function world(mercury) {
-class LifeExpectancy {
-  constructor(userAge) {
+  let userAge = [];
+  class LifeExpectancy {
+  constructor(age) {
     this.userAge = userAge;
     this.mercury = .24;
     this.venus = .62;
@@ -20,9 +21,10 @@ class LifeExpectancy {
    function world() {
       return this.userAge * this.mercury && this.userAge * this.venus && this.userAge * this.mars && this.userAge * this.jupiter;
     }
+    return world;
   };
 };
-let xenon = mercury
+// let world = age
 console.log(world)
 };
   // };

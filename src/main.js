@@ -10,8 +10,9 @@ $(document).ready(function() {
   $('#age-form').submit(function(event) {
     event.preventDefault();
     var age = $('#age').val();
-    // var lifeExpectency = new LifeExpectancy(age);
+    // var lifeExpectency = new LifeExpectancy(world);
     console.log("hello")
+    console.log(age)
     // console.log(lifeExpe ctancy.tostring())
     // var output = date(age);
     basic();
