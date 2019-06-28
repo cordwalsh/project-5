@@ -1,31 +1,32 @@
 import { age } from './main';
 
-export function basic() {
-  console.log("hi");
-}
+
 // export function toString() {
 //   return this.userAge +" " +this.mercury +" " + this.venus +" " +this.mars +" " this.jupiter;
 // };
+
 console.log("him")
+// class LifeExpectancy {
+//   constructor() {
+//     this.userAge = userAge;
+//     this.mercury = .24;
+//     this.venus = .62;
+//     this.mars = 1.88;
+//     this.jupiter = 11.86;
+//   }
+//   checkType() {
+//
+//     console.log("hu");
+//       return age*this.mercury;
+//
+//     // return lifeExpectency;
+//
+// }
 export function world(mercury) {
-  let userAge = [];
-  class LifeExpectancy {
-  constructor(age) {
-    this.userAge = userAge;
-    this.mercury = .24;
-    this.venus = .62;
-    this.mars = 1.88;
-    this.jupiter = 11.86;
-  }
-  checkType() {
-   function world() {
-      return this.userAge * this.mercury && this.userAge * this.venus && this.userAge * this.mars && this.userAge * this.jupiter;
-    }
-    return world;
-  };
-};
+  // let lifeExpectency = new LifeExpectancy();
+  console.log("she")
+console.log("pee");
 // let world = age
-console.log(world)
 };
   // };
   //   // checkType() {

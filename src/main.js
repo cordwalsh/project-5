@@ -6,17 +6,26 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css';
 
+export function age() {
+var age = $('#age').val();
+}
+
 $(document).ready(function() {
   $('#age-form').submit(function(event) {
     event.preventDefault();
+
+
     var age = $('#age').val();
+
     // var lifeExpectency = new LifeExpectancy(world);
     console.log("hello")
     console.log(age)
     // console.log(lifeExpe ctancy.tostring())
     // var output = date(age);
-    basic();
+
     world();
+
+
     // toString();
     // console.log(output);
     // output.forEach(function(element) {
