@@ -1,4 +1,6 @@
 import { basic } from './planets';
+import { world } from './planets';
+// import {toString} from './planets';
 import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -9,9 +11,12 @@ $(document).ready(function() {
     event.preventDefault();
     var age = $('#age').val();
     // var lifeExpectency = new LifeExpectancy(age);
+    console.log("hello")
     // console.log(lifeExpe ctancy.tostring())
     // var output = date(age);
     basic();
+    world();
+    // toString();
     // console.log(output);
     // output.forEach(function(element) {
       // $('#result').append("<li>" + element + "</li>");
