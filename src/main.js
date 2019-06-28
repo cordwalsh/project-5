@@ -23,7 +23,7 @@ $(document).ready(function() {
     // console.log(lifeExpe ctancy.tostring())
     // var output = date(age);
 
-    world();
+    world(age);
 
 
     // toString();
