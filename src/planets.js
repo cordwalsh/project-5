@@ -1,7 +1,5 @@
 import $ from 'jquery';
 console.log("background is black cause space is a vacuum");
-
-
 class PlanetAge {
   constructor(userAge,deathAge) {
     this.userAge = userAge;
@@ -56,6 +54,7 @@ class PlanetAge {
 };
 export function world(age,die) {
   const planetAge = new PlanetAge(age,die);
+  console.log("earth:" + planetAge.userAge());
   console.log("mercury:" + planetAge.mercuryAge());
   console.log("venus:" + planetAge.venusAge());
   console.log("mars:" + planetAge.marsAge());
@@ -65,5 +64,4 @@ export function world(age,die) {
   console.log("mars death:" + planetAge.marsDeath());
   console.log("jupiter death:" + planetAge.jupiterDeath());
   console.log(planetAge.easterEgg());
-
 };

@@ -1,14 +1,17 @@
 // RUN TESTS
 //
 //
-// import { Triangle } from './../src/triangle.js';
+import { PlanetAge } from './../src/planets.js';
+import { world } from './../src/planets.js';
 //
-// describe('Triangle', function() {
+describe('PlanetAge', function() {
 //
-// it('should correctly determine if a triangle is equilateral', function() {
-// var triangle = new Triangle(3,3,3)
-// expect(triangle.checkType()).toEqual("an equilateral triangle");
-// });
+it('returns age that user inputs in earth years', function () {
+    var planetAge = new PlanetAge(age,die) {
+      expect(planetAge.userAge()).toEqual(this.userAge);
+  });
+});
+});
 //
 // it('should correctly determine whether three lengths can be made into a triangle', function() {
 // var notTriangle = new Triangle(3,9,22);
