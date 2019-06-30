@@ -12,14 +12,8 @@ var age = $('#age').val();
 $(document).ready(function() {
   $('#age-form').submit(function(event) {
     event.preventDefault();
-
-
     let age = $('#age').val();
-
-
-    world(age);
-
-
-
+    let die = $("#die").val();
+    world(parseInt(age),parseInt(die));
   });
 });
