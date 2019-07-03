@@ -8,6 +8,12 @@ export class PlanetAge {
     this.mars = 1.88;
     this.jupiter = 11.86;
   }
+  earthAge() {
+    return this.userAge;
+  }
+  earthDeath() {
+    return this.deathAge;
+  }
   mercuryAge() {
     return this.userAge*this.mercury;
   }

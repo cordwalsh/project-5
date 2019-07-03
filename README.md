@@ -19,8 +19,8 @@ The program returns a number value based on your age (earth years)
 - Output: "27"
 
 The program returns a number value based on your age (other planets, mercury)
-- Input: "27"
-- Output: "6.48"
+- Input: "100"
+- Output: "24"
 
 The user inputs a life expectancy and the program returns a number value based on how many years you have left to live on each planet.
 - Input: "27 (earth), 75"
