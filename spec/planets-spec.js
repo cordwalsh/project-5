@@ -9,11 +9,16 @@ it('returns age that user inputs in earth years', function () {
     var planetAge = new PlanetAge(27,80);
       expect(planetAge.userAge()).toEqual(27);
 });
-it('returns age that user inputs in mercury years') function () {
-    var planetAge= new PlanetAge(27,80);
+
+it('returns age that user inputs in mercury years' function () {
+    var planetAge = new PlanetAge(27,80);
     expect(planetAge.mercuryAge()).toEqual(6.48);
 });
 
+it('returns life expectancy of how many years you have left in earth years', function () {
+    var planetAge = new PlanetAge (27,75);
+    expect(planetAge.deathAge() - planetAge.userAge()).toEqual(48);
+});
 
 
 

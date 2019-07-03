@@ -8,8 +8,8 @@
 This site lets you enter your age and tells you how old you are on other planets.
 
 ## Setup/Installation Requirements
-clone this repository https://github.com/cordwalsh/independent-project-5.git
-deploy this Project https://cordwalsh.github.io/independent-project-5
+clone this repository https://github.com/cordwalsh/project-5.git
+deploy this Project https://cordwalsh.github.io/project-5
 open and view in web browser
 
 ## Specs
