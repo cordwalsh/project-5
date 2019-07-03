@@ -1,6 +1,5 @@
 import $ from 'jquery';
-console.log("background is black cause space is a vacuum");
-class PlanetAge {
+export class PlanetAge {
   constructor(userAge,deathAge) {
     this.userAge = userAge;
     this.deathAge = deathAge;

@@ -5,13 +5,27 @@ import { PlanetAge } from './../src/planets.js';
 import { world } from './../src/planets.js';
 //
 describe('PlanetAge', function() {
-//
 it('returns age that user inputs in earth years', function () {
-    var planetAge = new PlanetAge(age,die) {
-      expect(planetAge.userAge()).toEqual(this.userAge);
-  });
+    var planetAge = new PlanetAge(27,80);
+      expect(planetAge.userAge()).toEqual(27);
 });
+it('returns age that user inputs in mercury years') function () {
+    var planetAge= new PlanetAge(27,80);
+    expect(planetAge.mercuryAge()).toEqual(6.48);
 });
+
+
+
+
+
+
+});
+
+// it('returns age that user inputs in earth years', function () {
+//     var planetAge = new PlanetAge(34, 77);
+//     planet.calculateJupiterAge();
+//     expect(planetAge.jupiterAge).toEqual(8.16);
+// });
 //
 // it('should correctly determine whether three lengths can be made into a triangle', function() {
 // var notTriangle = new Triangle(3,9,22);
